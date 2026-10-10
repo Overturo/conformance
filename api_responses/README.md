@@ -6,8 +6,8 @@ written. A client test that stubs a response from a recording is testing
 against what the API actually sends, not against what the test author
 remembered.
 
-- Recordings: 38 across 36 operations
-- Published document digest: `23a37f9af0854d50` (the `document` field in every file)
+- Recordings: 46 across 44 operations
+- Published document digest: `9d331bdb066a5a5e` (the `document` field in every file)
 
 ## Layout
 
@@ -21,7 +21,7 @@ variant such as a query flavor — carries a step suffix: `Vouches_show.404.json
   "operationId": "Vouches_show",
   "request":  { "method": "GET", "path": "/api/v1/vouches/<PREFIX_ID:1>", "headers": { "...": "..." }, "body": null },
   "response": { "status": 200, "headers": { "Content-Type": "application/json; charset=utf-8" }, "body": { "vouch": { "...": "..." } } },
-  "document": "23a37f9af0854d50"
+  "document": "9d331bdb066a5a5e"
 }
 ```
 
